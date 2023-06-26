@@ -43,4 +43,4 @@ const reducer = (state, action) => {
       throw new Error(`no mathching "${action.type}" action type`)
   }
 }
-export default reducer
+export default reducer;
